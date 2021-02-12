@@ -11,7 +11,6 @@ import subprocess
 import time
 
 
-
 subprocess.Popen('cmd.exe')
 
 from ctypes import wintypes
@@ -63,6 +62,7 @@ for c in message:
     time.sleep(0.1)
 
 time.sleep(4)
+
 
 def my_string_gen():
     for character in message2:
